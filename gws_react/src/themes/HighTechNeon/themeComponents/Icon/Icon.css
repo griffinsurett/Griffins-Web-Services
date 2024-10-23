@@ -1,8 +1,9 @@
 /* Icon.css */
 .styled-icon {
-  color: var(--maintext-color);
+  color: var(--everdark-color1);
   /* font-size: var(--font-size-h4); */
   border-radius: 50%;
+  filter: var(--dropshadow1);
   padding: 18px 18px;
   background: var(--dynamicIconBG);
 }
