@@ -1,5 +1,10 @@
 /* Logo Specific Styles */
-.logo-drop-shadow {
+.logo-drop-shadow-small {
+  filter: var(--dropshadow3);
+  transition: filter var(--primaryTransition), box-shadow var(--primaryTransition), transform var(--primaryTransition);
+}
+
+.logo-drop-shadow-big {
   filter: var(--dropshadow1);
   transition: filter var(--primaryTransition), box-shadow var(--primaryTransition), transform var(--primaryTransition);
 }
@@ -45,24 +50,3 @@
 .center-height-shadow {
   top: 50%;
 }
-
-/* Responsive Logo Style */
-/* .responsive-logo {
-  max-width: 100%;
-  height: auto;
-} */
-
-/* Add breakpoints for better control */
-/* @media (max-width: 768px) {
-  .responsive-logo {
-    width: 80%!important;
-    height: 80%!important;
-  }
-}
-
-@media (max-width: 480px) {
-  .responsive-logo {
-    width: 70%!important; 
-    height: 70%!important;
-  }
-} */

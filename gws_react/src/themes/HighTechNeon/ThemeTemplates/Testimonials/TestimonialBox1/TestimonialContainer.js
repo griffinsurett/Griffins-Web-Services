@@ -28,7 +28,7 @@ const TestimonialCarousel = ({ testimonials }) => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} id='testimonialSlider'>
       {testimonials.map((testimonial, index) => (
         <TestimonialBox
           key={index}

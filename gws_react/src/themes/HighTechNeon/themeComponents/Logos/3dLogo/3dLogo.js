@@ -20,7 +20,7 @@ const Logo = ({
 
   return (
     <div
-      className={`flex justify-center item-align-center ${ContainerClassName} logo-drop-shadow`}
+      className={`flex justify-center item-align-center ${ContainerClassName}`}
     >
       {/* Conditionally apply the dark or light mode logo based on the theme */}
       <img

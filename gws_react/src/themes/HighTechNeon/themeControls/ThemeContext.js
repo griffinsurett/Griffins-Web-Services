@@ -103,6 +103,11 @@ export const ThemeProvider = ({ children }) => {
         "var(--lightBG-dropshadow2)"
       );
       document.documentElement.style.setProperty(
+        "--dropshadow3",
+        "var(--lightBG-dropshadow3)"
+      );
+
+      document.documentElement.style.setProperty(
         "--boxShadow1",
         "var(--lightBG-boxShadow1)"
       );
@@ -162,6 +167,10 @@ export const ThemeProvider = ({ children }) => {
       document.documentElement.style.setProperty(
         "--dropshadow2",
         "var(--darkBG-dropshadow2)"
+      );
+      document.documentElement.style.setProperty(
+        "--dropshadow3",
+        "var(--darkBG-dropshadow3)"
       );
       document.documentElement.style.setProperty(
         "--complex-box-shadow",

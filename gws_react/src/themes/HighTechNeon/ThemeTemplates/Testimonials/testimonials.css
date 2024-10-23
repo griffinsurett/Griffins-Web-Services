@@ -1,7 +1,10 @@
 /* testimonials.css */
+.testimonials {
+  overflow-x: hidden;
+}
 
-.slick-slide {
-  padding: 0 15px; /* Add padding on the sides of each slide */
+#testimonialSlider {
+  overflow-x: hidden;
 }
 
 .slick-list {
@@ -44,3 +47,4 @@
     padding-right: var(--large-padding);
   }
 }
+

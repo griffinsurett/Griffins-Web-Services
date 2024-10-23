@@ -33,7 +33,7 @@ const Hero1 = () => {
         </div>
         <div className="hero-right lessthan-half-container flex column justify-center item-align-center">
           <Logo
-            ContainerClassName="flex justify-center item-align-center logo"
+            ContainerClassName="flex justify-center item-align-center logo logo-drop-shadow-big"
             width="460px" // Width is set, and height will be 90% of this
             classname=""
             responsive={true}
