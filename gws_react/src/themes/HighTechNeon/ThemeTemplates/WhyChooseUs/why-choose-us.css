@@ -1,0 +1,12 @@
+/* why-choose-us.css */
+@media (min-width: 768px) {
+    .whyChoose {
+        align-items: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .whyChoose {
+        align-items: center;
+    }
+}
