@@ -6,7 +6,7 @@ import Section from "../../themeComponents/Section/Section";
 import "./contact-us.css";
 import TextareaField from "../../themeComponents/Form-Fields/TextareaField";
 import Button from "../../themeComponents/Buttons/Button";
-import IconListItem from "../../themeComponents/IconListItem/IconListItem"; // Adjust the path if necessary
+import IconListItem from "../../themeComponents/ListItem/ListItem"; // Adjust the path if necessary
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const contactInfo = [

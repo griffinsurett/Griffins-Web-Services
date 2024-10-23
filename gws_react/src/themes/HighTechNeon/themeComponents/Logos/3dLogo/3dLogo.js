@@ -24,7 +24,7 @@ const Logo = ({
     >
       {/* Conditionally apply the dark or light mode logo based on the theme */}
       <img
-        src={isLightMode ? dark3dLogo : light3dLogo}
+        src={isLightMode ? dark3dLogo : dark3dLogo}
         // src={darkLogo}
         alt={isLightMode ? "Light Mode Logo" : "Dark Mode Logo"}
         onClick={onClick}

@@ -10,3 +10,13 @@
         align-items: center;
     }
 }
+
+.whyChoose-title {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+
+.choose-info {
+    height: max-content;
+}
