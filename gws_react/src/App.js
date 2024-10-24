@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import SiteView from './themes/HighTechNeon/index'
 
@@ -9,4 +10,4 @@ function App() {
     );
 }
 
-export default App;
+export default App;  

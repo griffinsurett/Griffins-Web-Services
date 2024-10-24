@@ -1,17 +1,13 @@
 /* accordion.css */
 .accordion {
   width: 100%;
-  /* max-width: 600px; */
-  /* padding: var(--primary-padding); */
   margin: 0 auto;
   overflow: hidden;
 }
 
 .accordion-item {
   margin: var(--form-spacing);
-  /* box-shadow: var(--boxShadow1); */
   border-radius: var(--input-radius);
-  /* border: var(--dynamicIconBorder); */
   transition: var(--primaryTransition);
 }
 

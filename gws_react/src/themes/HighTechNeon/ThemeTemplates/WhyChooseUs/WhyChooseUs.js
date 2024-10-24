@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
           className="whyChoose column choose-icons-title responsive-center"
           ifButton={true}
           ifParagraph={false}
-          heading="Griffin's Web Services is transparent, committed, and a skilled partner in your digital journey." // Large heading
+          heading="Griffin's Web Services is transparent, committed, and skilled." // Large heading
           title="Why Choose Us" // Smaller title
           paragraph1={
             "We are a team of professionals who are passionate about technology and helping businesses succeed. We specialize in custom software development and design."
