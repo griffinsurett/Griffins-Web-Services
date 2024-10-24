@@ -51,6 +51,7 @@ function ContactUs() {
           {contactInfo.map((info, index) => (
             <IconListItem
               key={index}
+              hasIcon={true}
               icon={info.icon}
               title={info.label}
               description={info.value}

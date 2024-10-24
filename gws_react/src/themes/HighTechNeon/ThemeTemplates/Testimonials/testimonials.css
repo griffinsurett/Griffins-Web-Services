@@ -1,8 +1,4 @@
 /* testimonials.css */
-.testimonials {
-  overflow-x: hidden;
-}
-
 #testimonialSlider {
   overflow-x: hidden;
 }
@@ -45,6 +41,12 @@
 @media (min-width: 768px) {
   .testimonials-content h2 {
     padding-right: var(--large-padding);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    overflow-x: hidden;
   }
 }
 
