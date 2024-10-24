@@ -10,13 +10,13 @@ const WhyChooseUs = () => {
   return (
     <Section
       className={
-        "flex item-align-start full-height responsive responsive-center"
+        "flex item-align-start full-height responsive responsive-center section-gap"
       }
       shadowClass={"left-shadow bottom"}
     >
       <div className="half-column flex item-align-start bottom-space whyChoose-title">
         <ContentTemplate
-          className="whyChoose large-screen-spacing-right column choose-icons-title responsive-center"
+          className="whyChoose column choose-icons-title responsive-center"
           ifButton={true}
           ifParagraph={false}
           heading="Griffin's Web Services is transparent, committed, and a skilled partner in your digital journey." // Large heading
@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
             "We are a team of professionals who are passionate about technology and helping businesses succeed. We specialize in custom software development and design."
           }
           paragraph1Class={"text-left responsive-center bottom-space"}
-          buttonSecClass={"top-space"}
+          buttonSecClass={"larger-top-space"}
         />
       </div>
       <div className="choose-info flex column half-column">

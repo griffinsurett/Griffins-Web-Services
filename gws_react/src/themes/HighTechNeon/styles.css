@@ -52,7 +52,6 @@
   --input-radius: 10px;
 
   --form-spacing: 15px; /* Define a variable for spacing */
-
   /* colors */
   --darkBG-primary-color: #5e76f6;
   --lightBG-primary-color: #1c1c1c;
@@ -360,6 +359,10 @@ a {
   padding-left: var(--large-padding);
 }
 
+.section-gap {
+  gap: var(--section-gap);
+}
+
 /* --------------------------------------------------- */
 
 .none {
@@ -510,6 +513,10 @@ a {
 }
 
 @media (min-width: 768px) {
+  :root {
+    --section-gap: 60px; /* Define a variable for the gap between sections */
+  }
+
   .container {
     width: var(--container-width);
   }
@@ -542,6 +549,7 @@ a {
 @media (max-width: 1180px) {
   :root {
     --container-width: 93%;
+    --section-gap: 20px; /* Define a variable for the gap between sections */
   }
 
   .responsive {

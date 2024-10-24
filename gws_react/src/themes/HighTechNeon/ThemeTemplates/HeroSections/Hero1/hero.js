@@ -10,7 +10,7 @@ const Hero1 = () => {
   return (
     <section
       id="hero-section"
-      className="flex item-align-center responsive hero-height"
+      className="flex item-align-center responsive hero-height section-gap"
     >
         <div className="hero-left morethan-half-container w-90 text-left">
           {/* Use ContentTemplate for the hero section content */}
@@ -25,7 +25,7 @@ const Hero1 = () => {
             buttonLink="#"
             className="hero-content column"
             headingClass="text-shadow-for-dark"
-            paragraphClass="p-small bottom-space larger-right-space"
+            paragraphClass="p-small bottom-space"
             buttonClass="p-small"
             buttonSecClass="hero-btn-container smaller-top-space smaller-bottom-space"
             titleClass="section-title"
