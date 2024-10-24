@@ -1,7 +1,7 @@
 /* header.css */
 @media (min-width: 768px) {
   :root {
-    --header-height: 13vh;
+    --header-height: 11vh;
   }  
 }
 
