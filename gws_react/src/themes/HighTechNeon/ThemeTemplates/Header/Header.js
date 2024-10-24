@@ -14,7 +14,7 @@ const Header = ({ toggleMenu }) => {
         <div className="nav-left logo fif-container flex justify-center item-align-center">
           <a href="/">
             <Logo
-              ContainerClassName="flex justify-center item-align-center logo logo-drop-shadow-small"
+              ContainerClassName="flex justify-center item-align-center logo"
               width="50px" // Width is set, and height will be 90% of this
               classname="responsive-logo"
             />

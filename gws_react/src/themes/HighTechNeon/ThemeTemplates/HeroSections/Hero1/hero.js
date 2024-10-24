@@ -37,6 +37,7 @@ const Hero1 = () => {
             width="460px" // Width is set, and height will be 90% of this
             classname=""
             responsive={true}
+            everdarkLogo={true}
           />
         </div>
     </section>
