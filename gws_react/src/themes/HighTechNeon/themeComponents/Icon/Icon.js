@@ -8,7 +8,7 @@ const Icon = ({ icon, size = '1x', className = '', bgColor }) => {
         <FontAwesomeIcon 
             icon={icon} 
             size={size} 
-            className={`icon flex justify-center align-item-center ${className}`} // Fixed className usage
+            className={`icon flex justify-center align-item-center hover-scale ${className}`} // Fixed className usage
             style={{ margin: '0 5px', backgroundColor: bgColor }} // Optional: add some margin around the icon
         />
     );
