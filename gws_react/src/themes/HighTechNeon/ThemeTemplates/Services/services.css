@@ -5,10 +5,8 @@
 }
 
 .services-boxes {
-  display: flex;
   flex-wrap: wrap;
   z-index: 1;
-  /* gap: 20px;  */
 }
 
 /* Responsive Styles */
@@ -21,6 +19,12 @@
 @media (max-width: 1200px) {
   .services-boxes {
     gap: 30px; /* Adjust the gap between service boxes as needed */
+  }
+}
+
+@media (min-width: 768px) {
+  .services-boxes {
+    justify-content: space-between;
   }
 }
 

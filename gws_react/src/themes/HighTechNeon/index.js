@@ -21,7 +21,7 @@ import Subscribe from "./ThemeTemplates/Subscribe/Subscribe";
 import PricingTable from "./ThemeTemplates/Pricing/Pricing";
 
 // Main App Component
-const App = () => {
+const Theme = () => {
   const [loading, setLoading] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control menu visibility
 
@@ -62,12 +62,12 @@ const App = () => {
               <Hero1 />
               <Services />
               <About />
-              <About2 />
-              <Process />
+              {/* <About2 /> */}
+              {/* <Process /> */}
               <WhyChooseUs />
               <Projects />
               <Testimonials />
-              <PricingTable />
+              {/* <PricingTable /> */}
               <FAQ />
               <ContactUs />
               <Subscribe />
@@ -86,4 +86,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Theme;

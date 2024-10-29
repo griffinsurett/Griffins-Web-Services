@@ -14,7 +14,7 @@ const AccordionItem = ({ title, content }) => {
   return (
     <div className={`accordion-item dynamic-hover-border-effect dynamic-active-border-effect ${isOpen ? 'active' : ''}`}>
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h5 className="accordion-title">{title}</h5>
+        <h6 className="accordion-title">{title}</h6>
         <FontAwesomeIcon 
           icon={isOpen ? faChevronUp : faChevronDown} 
           size='xs'

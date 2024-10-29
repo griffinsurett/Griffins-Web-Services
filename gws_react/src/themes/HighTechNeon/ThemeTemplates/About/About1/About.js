@@ -8,6 +8,7 @@ import Section from "../../../themeComponents/Section/Section"; // Import your S
 const About = () => {
   return (
     <Section
+      id='about'
       className={
         "about flex item-align-center justify-center full-height column responsive responsive-center"
       }

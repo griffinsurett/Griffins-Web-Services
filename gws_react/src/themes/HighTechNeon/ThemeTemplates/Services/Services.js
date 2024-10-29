@@ -4,44 +4,44 @@ import "./services.css"; // Ensure to keep unique styles for services
 import ContentTemplate from "../../themeComponents/ContentTemplate/ContentTemplate"; 
 import Section from "../../themeComponents/Section/Section";
 import ServiceBox from "./ServiceBox/ServiceBox"; // Import the ServiceBox component
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faChartLine, faPaintBrush, faRobot, faWandMagicSparkles, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const servicesData = [
   {
     icon: faCode,
-    title: "Service 1",
-    description: "Description of service 1.",
-    href: "#service1",
+    title: "Website Services",
+    description: "We design, develop, manage, and host custom, responsive websites that engage users and enhance your brand’s online presence..",
+    href: "#websites",
   },
   {
-    icon: faCode,
-    title: "Service 2",
-    description: "Description of service 2.",
-    href: "#service2",
+    icon: faChartLine,
+    title: "Digital Marketing",
+    description: "Boost your brand’s reach with our SEO, influencer, social media, and targeted digital ad campaigns.",
+    href: "#digital-marketing",
   },
   {
-    icon: faCode,
-    title: "Service 3",
-    description: "Description of service 3.",
-    href: "#service3",
+    icon: faWandMagicSparkles,
+    title: "Branding and Identity",
+    description: "Build a strong, memorable brand identity that resonates with your audience through impactful visuals and strategic messaging.",
+    href: "#branding",
+  },  
+  {
+    icon: faPaintBrush,
+    title: "Graphic Design",
+    description: "Capture attention with unique logos and visual designs that communicate your brand’s identity.",
+    href: "#graphic-design",
   },
   {
-    icon: faCode,
-    title: "Service 4",
-    description: "Description of service 4.",
-    href: "#service4",
-  },
+    icon: faRobot,
+    title: "AI and Automation",
+    description: "Boost efficiency with AI-powered automation solutions that streamline workflows and provide actionable insights.",
+    href: "#ai",
+  },  
   {
-    icon: faCode,
-    title: "Service 5",
-    description: "Description of service 5.",
-    href: "#service5",
-  },
-  {
-    icon: faCode,
-    title: "Service 6",
-    description: "Description of service 6.",
-    href: "#service6",
+    icon: faGlobe,
+    title: "Software Consulting",
+    description: "Get expert guidance on selecting and implementing tech solutions to support your business goals.",
+    href: "#software-consulting",
   },
 ];
 
@@ -64,7 +64,7 @@ const Services = () => {
       />
       <div className="space"></div>
 
-      <div className="services-boxes flex justify-content-section">
+      <div className="services-boxes flex justify-between-section">
         {servicesData.map((service, index) => (
           <ServiceBox
             key={index}

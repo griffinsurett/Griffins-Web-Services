@@ -20,7 +20,7 @@ const ProjectItem = ({ project }) => {
         }}
       >
         <div className="project-content flex column text-left">
-          <h6>{project.name}</h6>
+          <h5>{project.name}</h5>
           <p className="project-item-onhover p-small">{project.description}</p>
         </div>
         <div className="project-item-icon project-item-onhover">

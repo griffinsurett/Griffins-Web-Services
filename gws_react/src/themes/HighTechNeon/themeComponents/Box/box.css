@@ -23,7 +23,7 @@
 .box-link {
     text-decoration: none; /* Remove underline from links */
     color: var(--maintext-color); /* Set text color for normal state */
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 /* Set text color for visited state */

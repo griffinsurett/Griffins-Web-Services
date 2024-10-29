@@ -25,7 +25,7 @@
     padding: var(--primary-padding);
   }
   
-  .project-content h6,
+  .project-content h5,
   .project-content p {
     margin: 0;
   }

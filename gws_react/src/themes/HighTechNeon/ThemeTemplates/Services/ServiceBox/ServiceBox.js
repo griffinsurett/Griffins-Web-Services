@@ -10,7 +10,7 @@ import "./service-box.css"; // Assuming you have some CSS for styling
 const ServiceBox = ({ icon, title, description, href }) => {
   return (
     <Box
-      className="service-box square-box flex column justify-center item-align-center"
+      className="service-box square-box flex column justify-center item-align-center text-center"
       href={href}
     >
       <Icon
@@ -18,8 +18,8 @@ const ServiceBox = ({ icon, title, description, href }) => {
         size="md"
         className="styled-icon dynamic-border-effect hover-scale"
       />
-      <h3 className="top-space small-bottom-space">{title}</h3>
-      <p className="p-small small-top-space">{description}</p>
+      <h3 className="top-space smaller-bottom-space">{title}</h3>
+      <p className="p-xSmall small-top-space">{description}</p>
     </Box>
   );
 };

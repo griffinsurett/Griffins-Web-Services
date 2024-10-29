@@ -19,7 +19,7 @@ const ProjectItem = ({ project }) => {
         </div>
         <div className="project-content flex text-left">
           <div className="project-text flex column top-space left-space">
-          <h6>{project.name}</h6>
+          <h5>{project.name}</h5>
           <p className="p-small">{project.description}</p>
           </div>
           <div className="services-in-project">

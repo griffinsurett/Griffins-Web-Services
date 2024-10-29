@@ -7,19 +7,34 @@ import "./testimonials.css"; // Ensure to keep unique styles for testimonials
 // Define testimonials content directly in this file
 const testimonials = [
   {
-    name: "John Doe",
-    quote: "This service is fantastic! It really helped my business grow.",
-    position: "CEO, Example Corp",
+    name: "Kenn Faria",
+    quote: "Working with this team brought our vision to life! The website captures our services perfectly and has brought in a steady stream of clients.",
+    position: "Owner, Faria's Demolition",
   },
   {
-    name: "Jane Smith",
-    quote: "Highly recommend! The team was professional and efficient.",
-    position: "Marketing Director, ABC Ltd.",
+    name: "Anthony Gonzales",
+    quote: "Highly recommend! Griffin was professional and efficient with a great website that has helped us grow our business exponentially.",
+    position: "Owner, Pronto Junk Removal",
   },
   {
-    name: "Michael Johnson",
-    quote: "Great experience from start to finish.",
-    position: "CTO, Tech Innovators",
+    name: "Darius Clark",
+    quote: "From branding to the e-commerce platform, everything was done with precision and creativity. Griffin has been able to 5x business and I’m beyond satisfied with the results.",
+    position: "CEO of i-75 CPA Review",
+  },
+  {
+    name: "Arold Norelus",
+    quote: "Griffin truly captured my brand’s essence. The website has been a game-changer for my courses and community engagement.",
+    position: "Best-Selling Author",
+  },
+  {
+    name: "Tarun Kumar",
+    quote: "Professional, skilled, and efficient! Our new site is not only beautiful but effectively showcases our client success stories.",
+    position: "Owner, Koi Crest Marketing",
+  },
+  {
+    name: "Richard Faria",
+    quote: "An excellent experience from start to finish. The site has helped position us as a leader in our industry.",
+    position: "Owner, Koi Crest Marketing",
   },
 ];
 
