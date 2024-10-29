@@ -34,6 +34,7 @@ const About = () => {
         paragraph2Class={
           "bottom-paragraph text-left p-medium half-column self-right negative-top responsive-right"
         }
+        textSectionClass='smaller-bottom-space'
         buttonText="Learn More"
         buttonLink="#"
         buttonId="about-header-btn"
