@@ -12,7 +12,7 @@
 /* Responsive Styles */
 @media (min-width: 1200px) {
   .services-boxes {
-    gap: 20px; /* Adjust the gap between service boxes as needed */
+    gap: 30px; /* Adjust the gap between service boxes as needed */
   }
 }
 
