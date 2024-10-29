@@ -52,6 +52,7 @@ const Projects = () => {
     >
       <ContentTemplate
         className="column bottom-space"
+        textSectionClass={"smaller-top-space"}
         ifButton={true}
         buttonBottom={true}
         heading="Our Work"
@@ -61,7 +62,6 @@ const Projects = () => {
         buttonId="projects-header-btn"
         buttonSecClass="space"
       >
-        {/* Render the ProjectContainer and pass projects as props */}
         <ProjectContainer2 projects={projects} />
       </ContentTemplate>
     </Section>

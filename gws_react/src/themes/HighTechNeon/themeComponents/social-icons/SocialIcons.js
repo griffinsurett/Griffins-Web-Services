@@ -43,7 +43,7 @@ const SocialIcons = () => {
                     >
                         <Icon 
                             icon={socialMedia.icon} 
-                            size="md" // This size can be adjusted
+                            size="lg" // This size can be adjusted
                             className="" // No additional class for styling
                         />
                     </a>

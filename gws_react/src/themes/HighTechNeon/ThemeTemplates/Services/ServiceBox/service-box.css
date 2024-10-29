@@ -5,7 +5,7 @@
     max-width: 370px;
     min-height: 350px;
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
-    padding: 40px; /* Adjust the padding as needed */
+    padding: 30px; /* Adjust the padding as needed */
   }
 
   /* .box-link, .service-box .box {

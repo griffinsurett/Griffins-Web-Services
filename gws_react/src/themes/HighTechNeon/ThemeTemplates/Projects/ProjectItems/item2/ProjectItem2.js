@@ -16,7 +16,7 @@ const ProjectItem = ({ project }) => {
           backgroundImage: `url(${project.image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "350px", // You can adjust the height as necessary
+          height: "350px",
         }}
       >
         <div className="project-content flex column text-left">
@@ -33,7 +33,6 @@ const ProjectItem = ({ project }) => {
 
 ProjectItem.propTypes = {
   project: PropTypes.shape({
-    id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,

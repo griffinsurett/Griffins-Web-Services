@@ -8,7 +8,7 @@ const TextareaField = ({
   name,
   value,
   onChange,
-  placeholder,
+  placeholder = "", // Default value for placeholder
   className,
 }) => {
   return (
@@ -29,13 +29,9 @@ const TextareaField = ({
 TextareaField.propTypes = {
   label: PropTypes.string,
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
+  value: PropTypes.string,
+  onChange: PropTypes.func,
   placeholder: PropTypes.string,
-};
-
-TextareaField.defaultProps = {
-  placeholder: "",
 };
 
 export default TextareaField;

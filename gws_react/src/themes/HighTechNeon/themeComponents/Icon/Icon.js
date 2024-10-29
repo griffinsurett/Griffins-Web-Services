@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Icon.css';
 
-const Icon = ({ icon, size = '1x', className = '', bgColor }) => {
+const Icon = ({ icon, size = 'sm', className = '', bgColor }) => {
     return (
         <FontAwesomeIcon 
             icon={icon} 

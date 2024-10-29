@@ -5,11 +5,11 @@ import "./fields.css"; // Assuming you have some CSS for styling
 
 const InputField = ({
   label,
-  type,
+  type = "text", // Default value for type
   name,
   value,
   onChange,
-  placeholder,
+  placeholder = "", // Default value for placeholder
   className,
 }) => {
   return (
@@ -32,14 +32,9 @@ InputField.propTypes = {
   label: PropTypes.string,
   type: PropTypes.string,
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
+  value: PropTypes.string,
+  onChange: PropTypes.func,
   placeholder: PropTypes.string,
-};
-
-InputField.defaultProps = {
-  type: "text",
-  placeholder: "",
 };
 
 export default InputField;

@@ -1,6 +1,6 @@
 // Hamburger.js
 import React from 'react';
-import './hamburger.css'; // Ensure the corresponding CSS file is imported
+import './hamburger.css';
 
 const Hamburger = ({ isMenuOpen, toggleMenu }) => {
     return (

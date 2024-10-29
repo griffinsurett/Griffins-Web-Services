@@ -21,6 +21,7 @@ const ContentTemplate = ({
   paragraph2,
   paragraph1Class,
   paragraph2Class,
+  textSectionClass,
   ifParagraph = false,
   buttonBottom = false,
   buttonClass,
@@ -30,7 +31,7 @@ const ContentTemplate = ({
 }) => {
   return (
     <div className={`content-template ${className} flex`}>
-      <div className="title-section column">
+      <div className={`title-section column ${textSectionClass}`}>
       {title && (
         <h5 className={`content-title smaller-bottom-space ${titleClass}`}>
           <Typewriter text={title} speed={100} />
