@@ -29,7 +29,7 @@
 .accordion-title {
   font-size: 1.25rem;
   font-family: var(--font-family-sans-serif);
-  font-weight: 300;
+  font-weight: var(--font-weight-paragraph);
   color: var(--maintext-color);
 }
 

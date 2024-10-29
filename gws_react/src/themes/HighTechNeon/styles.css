@@ -43,6 +43,7 @@
   /* Font Weights */
   --font-weight-regular: 300;
   --font-weight-bold: 900;
+  --font-weight-paragraph: 200;
 
   /* Letter Spacing */
   --letter-spacing-narrow: 0.15em;
@@ -179,6 +180,7 @@ h6 {
 p {
   font-size: var(--font-size-p);
   line-height: var(--line-height-paragraph);
+  font-weight: var(--font-weight-paragraph);
 }
 
 a {

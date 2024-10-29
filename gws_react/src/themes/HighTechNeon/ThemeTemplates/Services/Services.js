@@ -4,11 +4,11 @@ import "./services.css"; // Ensure to keep unique styles for services
 import ContentTemplate from "../../themeComponents/ContentTemplate/ContentTemplate"; 
 import Section from "../../themeComponents/Section/Section";
 import ServiceBox from "./ServiceBox/ServiceBox"; // Import the ServiceBox component
-import { faCode, faChartLine, faPaintBrush, faRobot, faWandMagicSparkles, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faLaptop, faLaptopCode, faChartLine, faPaintBrush, faRobot, faWandMagicSparkles, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const servicesData = [
   {
-    icon: faCode,
+    icon: faLaptop,
     title: "Website Services",
     description: "We design, develop, manage, and host custom, responsive websites that engage users and enhance your brand’s online presence..",
     href: "#websites",

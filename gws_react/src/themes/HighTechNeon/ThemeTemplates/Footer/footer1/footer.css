@@ -4,7 +4,6 @@
   position: relative; /* Default positioning */
   z-index: 1000; /* Ensure it's above content */
   text-align: center; /* Center text */
-  font-weight: 300;
 }
 
 .sticky-footer {
