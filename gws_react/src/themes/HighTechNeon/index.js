@@ -70,7 +70,7 @@ const Theme = () => {
               {/* <PricingTable /> */}
               <FAQ />
               <ContactUs />
-              <Subscribe />
+              {/* <Subscribe /> */}
             </div>
           </div>
           <Menu isOpen={isMenuOpen} toggleMenu={toggleMenu} />

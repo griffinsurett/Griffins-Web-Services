@@ -18,8 +18,9 @@ const ServiceBox = ({ icon, title, description, href }) => {
         size="md"
         className="styled-icon dynamic-border-effect hover-scale"
       />
-      <h3 className="top-space smaller-bottom-space">{title}</h3>
-      <p className="p-xSmall small-top-space">{description}</p>
+      <br />
+      <h3 className="smaller-top-space smaller-bottom-space">{title}</h3>
+      <p className="p-xSmall">{description}</p>
     </Box>
   );
 };
