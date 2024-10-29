@@ -12,11 +12,11 @@
   }
   
   .name {
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 10px;
   }
   
   .position {
-    font-style: italic;
+    /* font-style: italic; */
     color: var(--maintext-color);
   }

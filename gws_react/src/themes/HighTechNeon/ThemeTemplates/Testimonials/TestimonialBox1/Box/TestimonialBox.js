@@ -10,7 +10,7 @@ const TestimonialBox = ({ quote, name, position }) => {
     <Box className="testimonial-box square-box flex column justify-center item-align-center text-center">
       <p className="quote p-small">"{quote}"</p>
       <p className="name">
-        - {name}, <span className="position">{position}</span>
+      {name}, <span className="position">{position}</span>
       </p>
     </Box>
   );
