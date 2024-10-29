@@ -155,6 +155,7 @@ export const ThemeProvider = ({ children }) => {
       document.documentElement.style.setProperty(
         "--boxShadow1",
         "0 0 1px var(--primary-color), 0 0 1px var(--primary-color) inset, 0 0 4px var(--primary-color), 0 0 4px var(--primary-color) inset, 0 0 7.5px var(--primary-color), 0 0 5px var(--primary-color) inset, 0 0 10px var(--primary-color)"
+        // "0 0 1px var(--primary-color), 0 0 1px var(--primary-color) inset, 0 0 4px var(--primary-color), 0 0 11px var(--primary-color) inset, 0 0 1px var(--primary-color), 0 0 1px var(--primary-color) inset, 0 0 1px var(--primary-color)"
       );
       document.documentElement.style.setProperty(
         "--boxShadow2",

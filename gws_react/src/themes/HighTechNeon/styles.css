@@ -478,7 +478,7 @@ a {
 
 /* Dark Mode Styles */
 .dynamic-border-effect {
-  box-shadow: var(--boxShadow1); /* Neon glow effect */
+  box-shadow: var(--boxShadow1); 
 }
 
 .styled-icon .dynamic-border-effect {
