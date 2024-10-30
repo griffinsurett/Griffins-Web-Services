@@ -6,7 +6,7 @@ import "./styles.css";
 import "./animations.css";
 import Header from "./ThemeTemplates/Header/Header";
 import Footer from "./ThemeTemplates/Footer/footer1/Footer";
-// import Hero2 from "./ThemeTemplates/HeroSections/Hero2/Hero";
+import Hero2 from "./ThemeTemplates/HeroSections/Hero2/Hero";
 import Services from "./ThemeTemplates/Services/Services";
 import Hero1 from "./ThemeTemplates/HeroSections/Hero1/Hero";
 import About from "./ThemeTemplates/About/About1/About";
