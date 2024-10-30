@@ -21,7 +21,7 @@ const ProjectItem = ({ project }) => {
       >
         <div className="project-content flex column text-left">
           <h5>{project.name}</h5>
-          <p className="project-item-onhover p-small">{project.description}</p>
+          <p className="project-item-onhover p-small smaller-top-space">{project.description}</p>
         </div>
         <div className="project-item-icon project-item-onhover">
           <FontAwesomeIcon className="arrow" size="xl" icon={faArrowRight} />

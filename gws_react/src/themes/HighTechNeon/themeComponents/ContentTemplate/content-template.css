@@ -32,6 +32,10 @@
   }
   
   @media (min-width: 768px) {
+    .align-section-top-desktop {
+      align-items: flex-start;
+    }
+    
     .justify-between-section {
       justify-content: space-between;
       align-items: center;
@@ -43,6 +47,10 @@
   }
   
   @media (max-width: 768px) {
+    .align-section-top-desktop {
+      align-items: center;
+    }
+
     .content-template-inner {
       text-align: center;
     }

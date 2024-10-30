@@ -5,6 +5,7 @@ import "./why-choose-us.css";
 import Section from "../../themeComponents/Section/Section";
 import ListItem from "../../themeComponents/ListItem/ListItem";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../../themeComponents/Logos/3dLogo/3dLogo";
 
 const WhyChooseUs = () => {
   // Define a list of items for dynamic rendering
@@ -34,34 +35,44 @@ const WhyChooseUs = () => {
 
   return (
     <Section
-      className="flex item-align-start full-height responsive responsive-center section-gap"
+      className="flex align-section-top-desktop justify-center full-height section-gap responsive responsive-center"
       shadowClass="left-shadow bottom"
     >
+       <div className="why-right lessthan-half-container flex column justify-center item-align-center sticky-section">
+          <Logo
+            ContainerClassName="flex justify-center item-align-center logo logo-drop-shadow-big"
+            width="460px" // Width is set, and height will be 90% of this
+            classname=""
+            responsive={true}
+            everdarkLogo={true}
+          />
+        </div>
       <div className="half-column flex item-align-start bottom-space whyChoose-title">
         <ContentTemplate
-          className="whyChoose column choose-icons-title responsive-center"
+          className="whyChoose column"
           ifButton={true}
-          ifParagraph={false}
-          heading="Griffin's Web Services is transparent, committed, and skilled."
+          heading="We are transparent, committed, and skilled."
           title="Why Choose Us"
-          paragraph1="We are a team of professionals who are passionate about technology and helping businesses succeed. We specialize in custom software development and design."
-          paragraph1Class="text-left responsive-center bottom-space"
-          buttonSecClass="larger-top-space"
-        />
-      </div>
-      <div className="choose-info flex column half-column">
-        <div className="icon-list flex column justify-right">
-          {listItems.map((item, index) => (
-            <ListItem
-              key={index}
-              hasIcon={false}
-              icon={item.icon}
-              title={item.title}
-              description={item.description}
-              className="custom-icon-list-item-class bottom-space top-space item-align-center justify-left"
-            />
-          ))}
-        </div>
+          paragraph1="Griffin's Web Services is transparent, committed, and skilled."
+          buttonText="Learn More"
+          buttonLink="#"
+          buttonBottom={true}  // Pass `buttonBottom` to place the button below the listing on mobile
+        >
+          <div className="choose-info flex column">
+            <div className="icon-list flex column justify-right">
+              {listItems.map((item, index) => (
+                <ListItem
+                  key={index}
+                  hasIcon={false}
+                  icon={item.icon}
+                  title={item.title}
+                  description={item.description}
+                  className="custom-icon-list-item-class bottom-space top-space item-align-center justify-left"
+                />
+              ))}
+            </div>
+          </div>
+        </ContentTemplate>
       </div>
     </Section>
   );

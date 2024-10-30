@@ -60,7 +60,7 @@ function FAQ() {
       shadowClass={"left-shadow bottom"}
     >
       <ContentTemplate
-        className={"flex justify-center text-center column larger-bottom-space"}
+        className={"flex justify-center text-center column bottom-space"}
         ifButton={false}
         ifParagraph={true}
         heading="Frequently Asked Questions" // Large heading

@@ -524,6 +524,12 @@ a {
     --section-gap: 60px; /* Define a variable for the gap between sections */
   }
 
+  .sticky-section {
+    height: fit-content;
+    position: sticky;
+    top: 0;
+}
+
   .container {
     width: var(--container-width);
   }
@@ -555,8 +561,8 @@ a {
 
 @media (max-width: 1180px) {
   :root {
-    --container-width: 93%;
-    --section-gap: 20px; /* Define a variable for the gap between sections */
+    --container-width: 85%;
+    --section-gap: 20px; 
   }
 
   .responsive {
@@ -597,7 +603,7 @@ a {
   } */
 
   .header-foot-container {
-    width: calc(var(--head-foot-container-width) - 2%);
+    width: calc(var(--head-foot-container-width) - 5%);
   }
 
   .responsive {

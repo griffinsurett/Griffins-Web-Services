@@ -47,7 +47,7 @@ const Projects = () => {
 
   return (
     <Section
-      className={"flex justify-center full-height column text-center"}
+      className={"flex justify-center full-height column text-center responsive-container margin-center"}
       shadowClass={"left-shadow bottom"}
     >
       <ContentTemplate

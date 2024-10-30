@@ -7,6 +7,7 @@ import "./animations.css";
 import Header from "./ThemeTemplates/Header/Header";
 import Footer from "./ThemeTemplates/Footer/footer1/Footer";
 import Hero1 from "./ThemeTemplates/HeroSections/Hero1/hero";
+import Hero2 from "./ThemeTemplates/HeroSections/Hero2/hero";
 import Services from "./ThemeTemplates/Services/Services";
 import About from "./ThemeTemplates/About/About1/About";
 import About2 from "./ThemeTemplates/About/About2/About";
@@ -60,6 +61,7 @@ const Theme = () => {
           <div className="flex column item-align-center">
             <div className="content container">
               <Hero1 />
+              {/* <Hero2 /> */}
               <Services />
               <About />
               {/* <About2 /> */}
