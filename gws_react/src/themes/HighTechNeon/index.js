@@ -21,7 +21,7 @@ import Process from "./ThemeTemplates/Process/Process";
 import Subscribe from "./ThemeTemplates/Subscribe/Subscribe";
 import PricingTable from "./ThemeTemplates/Pricing/Pricing";
 
-// Main App Component
+// Main App Component to render the entire theme
 const Theme = () => {
   const [loading, setLoading] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control menu visibility
