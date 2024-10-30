@@ -561,7 +561,7 @@ a {
 
 @media (max-width: 1180px) {
   :root {
-    --container-width: 85%;
+    /* --container-width: 85%; */
     --section-gap: 20px; 
   }
 
@@ -628,7 +628,7 @@ a {
   }
 
   .container {
-    width: 95%;
+    width: calc(var(--container-width) + 5%)
   }
 
   .self-right {
