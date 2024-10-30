@@ -47,11 +47,11 @@ const Projects = () => {
 
   return (
     <Section
-      className={"flex justify-center full-height column text-center responsive-container margin-center"}
+      className={"justify-center full-height column"}
       shadowClass={"left-shadow bottom"}
     >
       <ContentTemplate
-        className="column bottom-space"
+        className="column bottom-space text-center"
         textSectionClass={"smaller-top-space"}
         ifButton={true}
         buttonBottom={true}

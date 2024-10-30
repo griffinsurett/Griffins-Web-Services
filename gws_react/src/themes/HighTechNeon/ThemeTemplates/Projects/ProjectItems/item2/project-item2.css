@@ -2,7 +2,7 @@
 
 .project-item {
     position: relative;
-    width: 50%;
+    /* width: 50%; */
     flex: 1 1 calc(50% - 20px); /* Two columns, with space between */
 }
   
